@@ -13,6 +13,9 @@
 
     <title>Yotube</title>
     <style>
+        p {
+            font-family: Roboto, arial;
+        }
         .thumbnail {
             width: 300px;
         }
@@ -23,12 +26,16 @@
 
         .video-title {
             margin-top: 0;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 15px;
         }
 
         .video-preview {
             display: inline-block;
             width: 300px;
             vertical-align: top;
+            margin-right: 10px;
         }
 
         .channel-image {
@@ -38,8 +45,8 @@
         }
 
         .channel-picture {
-            width: 100%;
-            border-radius: 100%;
+            width: 50px;
+            border-radius: 50px;
         }
 
         .video-info {
@@ -49,6 +56,18 @@
 
         .thumbnail-row {
             margin-bottom: 10px;
+        }
+
+        .video-author {
+            font-size: 12px;
+            margin-bottom: 0;
+            color: rgb(114, 113, 113);
+        }
+
+        .video-stats {
+            font-size: 12px;
+            margin-top: 5px;
+            color: rgb(114, 113, 113);
         }
     </style>
 </head>
@@ -78,6 +97,38 @@
         <div>
             <div class="channel-image">
                 <img class="channel-picture" src="Channel-pictures/channel-2.jpeg" alt="channel picture 2">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="video-author">Marques Brownlee</p>
+                <p class="video-stats">3.4M views &#183 6 months ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="thumbnail picture 3">
+        </div>
+        <div>
+            <div class="channel-image">
+                <img class="channel-picture" src="Channel-pictures/channel-3.jpeg" alt="channel picture 3">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Crazy Tik Toks Taken Moments Before Disaster</p>
+                <p class="video-author">SSSniperWolf</p>
+                <p class="video-stats">12M views &#183 1 year ago</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="thumbnail picture 4">
+        </div>
+        <div>
+            <div class="channel-image">
+                <img class="channel-picture" src="Channel-pictures/channel-4.jpeg" alt="channel picture 4">
             </div>
             <div class="video-info">
                 <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
